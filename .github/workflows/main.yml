@@ -3,11 +3,11 @@ name: CI
 
 # список событий, при которых будут запускаться задания
 on:
-  # на push и pull_request, только для ветки master
+  # на push и pull_request, только для ветки main
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
-    branches: [master]
+    branches: [main]
 
   # позволяет запускать workflow вручную с вкладки actions в интерфейсе github.com
   workflow_dispatch:
